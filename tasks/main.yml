@@ -1,0 +1,5 @@
+---
+- name: install emacs
+  yum:
+    name: emacs-nox
+    state: present
